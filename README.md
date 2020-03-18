@@ -15,7 +15,10 @@ Install tiktok-scraper through npm
 npm install tiktok-scraper
 ```
 
+### Data gathering
 Run tiktok-scraper with your settings, copy the links to the videos and download them (I use [DownThemAll](https://www.downthemall.net/) on Firefox)
+
+### Extracting frames
 
 Once you have your videos, open Terminal and go to the folder where they have been downloaded. Now, copy `extract-frames.sh` (inside the `src` folder, currently runs only on macOS, but based on [this bat script](https://superuser.com/questions/1346297/extracting-frames-from-all-videos-in-a-directory-using-ffmpeg)) to your video directory and run it:
 
@@ -25,3 +28,16 @@ cd /path/to/video/folder
 ```
 
 It will create a folder named as each video: it will extract one frame *every two seconds*.
+
+### Visualisation
+Copy `stitch.py` to the folder of the video you want to create the *frametage* (frame montage) for.
+
+```
+cd /path/to/frame/folder
+/path/to/frame/folder % python stitch.py
+```
+The script will generate a horizontal stitching of all the images inside the folder. It will be called as the folder and it will placed in its parent directory.
+
+## Example result
+![Example](images/example.png)
+*Video frametage from the hashtag "coronavirus"*
