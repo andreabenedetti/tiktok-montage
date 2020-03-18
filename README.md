@@ -8,7 +8,7 @@
   - `pip install os`
   - `pip install natsort`
 
-## Protocol
+## Instructions
 Install tiktok-scraper through npm
 
 ```
@@ -29,7 +29,7 @@ cd /path/to/video/folder
 
 It will create a folder named as each video: it will extract one frame *every two seconds*.
 
-### Visualisation
+### Montage
 Copy `stitch.py` to the folder of the video you want to create the *frametage* (frame montage) for.
 
 ```
