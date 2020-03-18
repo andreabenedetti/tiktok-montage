@@ -41,3 +41,6 @@ The script will generate a horizontal stitching of all the images inside the fol
 ## Example result
 ![Example](images/example.png)
 *Video frametage from the hashtag "coronavirus"*
+
+## Future developments
+Implement Google Vision ORC to extract text from the single frames.
