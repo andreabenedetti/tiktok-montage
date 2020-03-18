@@ -20,7 +20,7 @@ Run tiktok-scraper with your settings, copy the links to the videos and download
 
 ### Extracting frames
 
-Once you have your videos, open Terminal and go to the folder where they have been downloaded. Now, copy `extract-frames.sh` (inside the `src` folder, currently runs only on macOS, but based on [this bat script](https://superuser.com/questions/1346297/extracting-frames-from-all-videos-in-a-directory-using-ffmpeg)) to your video directory and run it:
+Once you have your videos, open Terminal and go to the folder where they have been downloaded. Now, copy `extract-frames.sh` (inside the `src` folder; it currently runs only on macOS, but it's based on [this bat script](https://superuser.com/questions/1346297/extracting-frames-from-all-videos-in-a-directory-using-ffmpeg)) to your video directory and run it:
 
 ```
 cd /path/to/video/folder
