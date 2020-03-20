@@ -44,3 +44,6 @@ The script will generate a horizontal stitching of all the images inside the fol
 
 ## Future developments
 Implement Google Vision ORC to extract text from the single frames.
+
+### Notebook
+Isolate hashtags (regex): `#[^\s]+`
