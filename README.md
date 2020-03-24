@@ -47,4 +47,5 @@ Implement Google Vision ORC to extract text from the single frames.
 
 ### Notebook
 Isolate hashtags (regex): `#[^\s]+`, `#[^\s"]+` to exclude the content after the " delimitator
+
 Create column of hashtags in OpenRefine (clojure): `(apply str (interpose ";" (filter #(contains? #{\# \@} (first %)) (.split value ""))))`
