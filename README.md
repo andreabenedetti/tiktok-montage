@@ -5,7 +5,7 @@
 - Python dependencies:
   - `pip install numpy`
   - `pip install Pillow`
-  - `pip install os_sys`
+  - `pip install os-sys`
   - `pip install natsort`
 
 ## Instructions
